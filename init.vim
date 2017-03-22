@@ -1,3 +1,6 @@
+" remove white space on save <- congwen
+autocmd BufWritePre * :%s/\s\+$//e
+
 source ~/.config/nvim/plugins.vim
 
 runtime macros/matchit.vim
@@ -1008,8 +1011,8 @@ nnoremap <C-w>gj :<C-u>call window#join('belowright split', v:count)  <BAR>norma
 nnoremap <C-w>gk :<C-u>call window#join('aboveleft split', v:count)   <BAR>normal 100zh<CR>
 
 command! -nargs=* LayoutH call window#layout('ball', 'H', <args>)
-command! -nargs=* LayoutJ call window#layout('vertical ball', 'J', <args>) 
-command! -nargs=* LayoutK call window#layout('vertical ball', 'K', <args>) 
+command! -nargs=* LayoutJ call window#layout('vertical ball', 'J', <args>)
+command! -nargs=* LayoutK call window#layout('vertical ball', 'K', <args>)
 command! -nargs=* LayoutL call window#layout('ball', 'L', <args>)
 
 command! -nargs=* WinH call window#layout('windo wincmd J', 'H', <args>)
@@ -1022,3 +1025,9 @@ command! -nargs=* Open call system('open ' . <q-args>)
 
 " command! Duplicate execute('normal :saveas '.expand('%'))
 cnoremap <C-e> <C-R>=expand('%')<CR>
+
+
+set cursorline
+set cursorcolumn
+
+
