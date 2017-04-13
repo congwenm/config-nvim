@@ -60,4 +60,7 @@ Plug 'https://github.com/mhinz/vim-startify'
 Plug 'https://github.com/ddrscott/vim-side-search'
 Plug 'https://github.com/ddrscott/vim-window'
 Plug 'https://github.com/leafgarland/typescript-vim.git'
+
+Plug 'Valloric/YouCompleteMe'
+Plug 'chriskempson/base16-vim'
 call plug#end()
