@@ -51,11 +51,11 @@ set hidden
 " }}}
 
 " Look and Feel {{{
-set background=dark
+" set background=dark
 " Make sure to set iTerm to xterm-256color
-let g:solarized_termcolors=16
-let g:solarized_termtrans=0
-colorscheme solarized
+" let g:solarized_termcolors=16
+" let g:solarized_termtrans=0
+" colorscheme solarized
 
 " set fillchars=diff:⣿,vert:\│
 set fillchars=diff:-,vert:\│
@@ -1031,7 +1031,7 @@ command! -nargs=* Open call system('open ' . <q-args>)
 cnoremap <C-e> <C-R>=expand('%')<CR>
 
 
-set cursorline
-set cursorcolumn
+" set cursorline
+" set cursorcolumn
 
 
