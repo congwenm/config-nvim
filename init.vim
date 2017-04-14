@@ -1033,6 +1033,6 @@ cnoremap <C-e> <C-R>=expand('%')<CR>
 
 set cursorline
 set cursorcolumn
-hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white
-hi CursorColumn   cterm=NONE ctermbg=darkred
+" hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white
+" hi CursorColumn   cterm=NONE ctermbg=darkred
 
