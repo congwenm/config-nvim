@@ -1031,7 +1031,7 @@ command! -nargs=* Open call system('open ' . <q-args>)
 cnoremap <C-e> <C-R>=expand('%')<CR>
 
 
-" set cursorline
-" set cursorcolumn
+set cursorline
+set cursorcolumn
 
 
