@@ -1037,6 +1037,10 @@ cnoremap <C-e> <C-R>=expand('%')<CR>
 set cursorline
 set cursorcolumn
 set background=dark
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 " hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white
 " hi CursorColumn   cterm=NONE ctermbg=darkred
 
