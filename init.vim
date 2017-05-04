@@ -4,8 +4,11 @@ autocmd BufWritePre * :%s/\s\+$//e
 " python path
 let g:ycm_path_to_python_interpreter="/usr/bin/python"
 
-" python
-" let g:ycm_path_to_python_interpreter="/usr/local/bin/python"
+" deoplete
+let g:deoplete#enable_at_startup = 1
+
+" jsx
+let g:jsx_ext_required = 0
 
 source ~/.config/nvim/plugins.vim
 

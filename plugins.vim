@@ -61,6 +61,10 @@ Plug 'https://github.com/ddrscott/vim-side-search'
 Plug 'https://github.com/ddrscott/vim-window'
 Plug 'https://github.com/leafgarland/typescript-vim.git'
 
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/deoplete.nvim', { 'do' : 'vim +UpdateRemotePlugins +qall' }
 Plug 'chriskempson/base16-vim'
+
+Plug 'mxw/vim-jsx'
 call plug#end()
