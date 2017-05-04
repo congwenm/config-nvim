@@ -1,6 +1,9 @@
 " remove white space on save <- congwen
 autocmd BufWritePre * :%s/\s\+$//e
 
+" python path
+let g:ycm_path_to_python_interpreter="/usr/bin/python"
+
 " python
 " let g:ycm_path_to_python_interpreter="/usr/local/bin/python"
 
